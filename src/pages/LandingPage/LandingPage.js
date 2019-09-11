@@ -2,20 +2,14 @@
 import React from "react";
 
 import { Navbar } from "../../components/Navbar";
-import sportsIcon from "../../assets/img/sports.jpg";
 
 import "./LandingPage.scss";
-
-const img = {
-  src: sportsIcon,
-  alt: "sports icon"
-};
 
 const LandingPage = () => {
   return (
     <>
       <div className="sportsapp-navbar">
-        <Navbar logo={img} title="Sports Center" user="esurya" />
+        <Navbar title="Sports Center" user="esurya" />
       </div>
       <div className="container-fluid sportsapp-layout">
         <div className="row h-100">

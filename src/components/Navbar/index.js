@@ -1,28 +1,25 @@
 // @flow
 import React from "react";
 
+import "./index.scss";
+
 type NavbarProps = {
-  logo: any,
   title: string,
   user: string
 };
 
-export const Navbar = ({ logo, title, user }: NavbarProps) => {
+export const Navbar = ({ title, user }: NavbarProps) => {
   return (
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img
-          className="rounded-circle"
-          src={logo.src}
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt={logo.alt}
-        />
-        {title}
+    <nav className="navbar navbar-light h-100">
+      <a className="navbar-brand" href="#">
+        <span className="navbar-title">
+          <h3>
+            <b>{title}</b>
+          </h3>
+        </span>
       </a>
       <form className="form-inline">
-        <span class="navbar-text">{user}</span>
+        <span class="navbar-userprofile">{user}</span>
       </form>
     </nav>
   );

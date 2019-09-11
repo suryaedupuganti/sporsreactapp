@@ -1,0 +1,9 @@
+.navbar {
+    background-color: #03A9F4;
+
+    &-title,
+    &-userprofile {
+        color: #FFFFFF;
+        font-weight: 700;
+    }
+}
