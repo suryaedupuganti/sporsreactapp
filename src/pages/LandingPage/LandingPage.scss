@@ -1,0 +1,13 @@
+.sportsapp {
+    &-navbar {
+        height: 80px;
+
+        .navbar {
+            height: 100%;
+        }
+    }
+
+    &-layout {
+        height: calc(100% - 80px);
+    }
+}
