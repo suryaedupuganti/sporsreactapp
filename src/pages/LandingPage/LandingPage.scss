@@ -1,0 +1,9 @@
+.sportsapp {
+    &-navbar {
+        height: 80px;
+    }
+
+    &-layout {
+        height: calc(100% - 80px);
+    }
+}
