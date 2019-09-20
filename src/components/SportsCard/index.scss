@@ -1,0 +1,12 @@
+.sportscard {
+    background-color: #12b1aa;
+
+    &--header {
+        height: 30px;
+        background-color: #276323;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
